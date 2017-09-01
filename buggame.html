@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tap Tap Bug</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="startPage">
+		<div id="title">TAP TAP BUG!</div>
+		<div id="instructions"><p>Click on the bugs before they eat your cookies! Earn as much points as you can in 60 seconds and reach a new highscore!</p></div>
+		<div id="highscore">Highscore: 0</div>
+		<div><button id="resetButton">Reset</button></div>
+		<div id="levelSelect">
+			<p>Select a Level: </p>
+			<form>
+				<input type="radio" name="level" onClick="radioClick(this);" value="1">1<br>
+				<input type="radio" name="level" onClick="radioClick(this);" value="2">2
+			</form>
+		</div>
+		<div id="start"><button id="startButton">Start!</button></div>
+	</div>
+	<div id="gameContent">
+		<div id="hud">
+			<div id="timer">Time: 60</div>
+			<div id="button"><button id="timerButton">Pause</button></div>
+			<div id="score">Score: 0</div>
+		</div>
+		<canvas id="game" width="400" height="600">
+			Your browser does not support the canvas element.    	
+		</canvas>
+	</div>
+</body>
+<script src="canvas.js"></script>
+</html>

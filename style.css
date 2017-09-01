@@ -1,0 +1,88 @@
+body{
+	font-family:sans-serif;
+}
+
+#startPage{
+	margin: auto;
+	width: 400px;
+	height: auto;
+	border: 1px solid gray;
+	border-bottom: 5px solid gray;
+	text-align: center;
+}
+
+#title{
+	padding-top: 10px;
+	display: inline-block;
+	font-size: 30px;
+	clear:right;
+}
+
+#instructions{
+	display: inline-block;
+	padding: 10px;
+	width: 350px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin: 10px;
+}
+
+#highscore{
+	height: auto;
+	margin: 5px;
+
+}
+
+#levelSelect{
+	display: inline-block;
+	height: auto;
+	width: 150px;
+	border: 1px solid gray;
+	padding-bottom: 5px;
+	margin: 10px;
+}
+
+#start {
+	border-top:1px solid gray;
+	padding: 10px;
+}
+
+
+#gameContent{
+	margin: auto;
+	width: 400px;
+	height: auto;
+	border: 1px solid gray;
+}
+
+#game{
+	border-top: 5px solid gray;
+	margin-top: 10px;
+	background: white;
+}
+
+#hud{
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-o-user-select: none; 
+	user-select: none; 
+	padding: 10px;
+	text-align: center;
+}
+
+#timer{
+	float:left;
+	width: 33.3%;
+}
+
+#button{
+	float: left;
+	width: 33.3%;
+}
+
+#score{
+	float: left;
+	width: 33.4%;
+}
+
