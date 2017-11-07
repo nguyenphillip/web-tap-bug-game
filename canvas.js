@@ -559,6 +559,11 @@ function exitGame(){
 	}
 }
 
+function quitGame(){
+	gameOver();
+	exitGame();
+}
+
 function radioClick(radio){
 	level = radio.value;
 	document.getElementById("highscore").innerHTML = "Highscore: " + highscores[level-1];
@@ -578,6 +583,7 @@ function initializeGame(){
 
 	canvas.addEventListener("mousedown", getPosition, false);
 	timerButton.addEventListener("click", pauseTimer);
+	quitButton.addEventListener("click", quitGame);
 
 	generateFood(5);
 
